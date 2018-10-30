@@ -7,11 +7,14 @@ class Rectangle(object):
          
     def area(self):
         return self.width * self.height
-                 
+         
+         
 class Square(Rectangle):
     def __init__(self, side=0):
         super().__init__(side, side)
-                      
+         
+         
+         
 class Ellipse(object):
     pi = 3.1415926535
     def __init__(self, a=0, b=0):
